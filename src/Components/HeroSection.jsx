@@ -1,8 +1,8 @@
 function HeroSection() {
   //w-[100vh] in case of standalone of this component
   return (
-    <div className="flex h-[100vh] w-full">
-      <div className="h-[100vh] basis-1/2 overflow-y-scroll bg-white py-10 sm:basis-2/3 sm:overflow-y-hidden">
+    <div className="flex h-[100vh] w-full flex-col md:flex-row">
+      <div className="h-[65%] basis-3/4 overflow-y-scroll bg-white py-10 md:h-fit md:basis-2/3 lg:overflow-y-hidden">
         <div className="flex flex-col items-start gap-3 px-7 py-3 text-start">
           <h2 className="text-3xl font-bold tracking-wider">
             Plant<span className="text-4xl font-bold text-green-500">.</span>
@@ -27,7 +27,7 @@ function HeroSection() {
           </button>
         </div>
       </div>
-      <div className="h-[100vh] basis-1/2 bg-orange-600 sm:basis-1/3">
+      <div className="h-[35%] basis-1/4 bg-orange-600 md:h-fit md:basis-1/3">
         <img
           src="/image-hero.jpeg"
           alt="image of hero section"
