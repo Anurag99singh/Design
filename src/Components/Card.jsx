@@ -4,7 +4,7 @@ function Card() {
       <div className="h-[35%] w-[100%] border-b-1">
         <img
           src="./img-1.jpeg"
-          alt="image"
+          alt="imagee"
           className="h-full w-full object-top sm:object-cover"
         />
         <div class="relative mx-auto -mt-16 h-32 w-32 overflow-hidden rounded-full border-4 border-white">
